@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh; /*centre de la page*/
+    background : url('photo2.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container {
+    width: 420px;
+    margin: 100px auto;
+    background-color: transparent;
+    backdrop-filter: blur(200px);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+h1 {
+    color: #333;
+}
+.links {
+    margin-top: 20px;
+}
+.links a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+.links a:hover {
+    background-color: #b34700;
+}
