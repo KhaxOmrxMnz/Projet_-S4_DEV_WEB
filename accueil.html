@@ -1,68 +1,38 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-<title>
- CY LOVE
-</title>
-
-<style>
-
-
-
-.navbar {
-      background-color: #333; /* Couleur de fond de la barre */
-      overflow: hidden;
-    }
-
-    .navbar a {
-      float: left; /* Alignement des éléments à gauche */
-      display: block; /* Afficher en bloc pour occuper tout l'espace horizontal */
-      color: white; /* Couleur du texte */
-      text-align: center; /* Centrer le texte */
-      padding: 14px 16px; /* Espacement autour du texte */
-      text-decoration: none; /* Supprimer la décoration du lien */
-    }
-
-    .navbar a:hover {
-      background-color: #ddd; /* Couleur de fond au survol */
-      color: black; /* Changement de couleur du texte au survol */
-    }
-
-
- body {
-      background-image: url('photo4.avif'); /* Spécifie l'image de fond */
-      background-size: cover; /* Redimensionne l'image pour couvrir toute la zone */
-      background-repeat: no-repeat; /* Empêche la répétition de l'image */
-      /* Vous pouvez également ajouter d'autres styles pour le corps de la page ici */
-    }
-
-</style>
-<h1> WELCOME TO OUR WEBSITE </h1>
-
-  </style>
-
-
-
-
+  <title> Astro Lovers </title>
+	 <link rel="stylesheet" href="accueil.css">
 </head>
-
-
 <body>
-
-<!-- Barre de navigation -->
-<div class="navbar">
-  <a href="admin.html"><i class="fas fa-home"></i> admin</a>
-  <a href="connexion.html"><i class="fas fa-search"></i> connexion</a>
-  <a href="abonné.html"><i class="fas fa-user"></i> abonné</a>
-  <a href="inscription2.php"><i class="fas fa-user"></i> inscription</a>
-</div>
-
-<br>
- <img src="photo3.jpg" alt="astro">
- <br>
- <img src="etoile_fillante.gif" alt="étoile">
-
-<!--https://www.shutterstock.com/fr/search/horoscop-pattern-->
+	<div class="main">
+		<div class="navbar">
+			<div class="icon">
+				<h2 class="logo"> Astro Lovers </h2>
+			</div>
+			
+			<div class="menu">
+				<ul>
+					<li><a href="accueil.html">Menu</a></li>
+					<li><a href="connexion.html">Connexion</a></li>	
+					<li><a href="inscription2.php">Inscription</a></li>	
+					<li><a href="apropos.html">A propos</a></li>
+				</ul>	
+			</div>
+			
+			<div class="search">
+				<input class="srch" type="search" name="" placeholder="Type To text">
+				<a href="#"> <button class="btn"> Search</button></a>
+			</div>
+		</div>
+		<div class="content">
+			<h1> Bienvenue sur <span>Astro Lovers</span>, <br>où l'amour rencontre les étoiles ! </h1>
+			<p class="par"> <br>Plongez dans un monde d'astrologie et de romantisme où chaque connexion est écrite dans les étoiles.
+			<br>Découvrez des correspondances compatibles basées sur les signes du zodiaque et laissez-vous guider par les astres vers votre âme sœur.
+			<br> Rejoignez-nous dès maintenant pour commencer votre voyage vers une relation céleste. </p>
+			<button class="cn"><a href="/"> Regoinez-nous </a> </button>
+		</div>
+	</div>
 </body>
-</html>
+</html>    
+
